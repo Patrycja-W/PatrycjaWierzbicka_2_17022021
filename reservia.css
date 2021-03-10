@@ -1,0 +1,193 @@
+@font-face
+{
+    font-family: 'PoliceRaleway';
+    src:url('Police/Raleway-Light.ttf');
+}
+
+body
+{
+    font-family: 'PoliceRaleway';
+    font-size: 14px;
+}
+
+
+
+                    /* HEBERGEMENT ACTIVITES SINSCRIRE !!!!!*/
+
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 15px;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.phrasedébut
+{
+    padding: 20px 0
+}
+                        /* FILTRES!!!!!!!*/ 
+
+main ul
+{
+    list-style-type: none;
+    display: flex;
+    font-weight: bold;
+    
+
+}
+
+main li
+{
+    margin-right: 15px;
+    border: 1px grey solid;
+    border-radius: 30px 30px;
+    padding: 7px 10px;
+    
+}
+
+.fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog
+{
+    background-color: #DEEBFF;
+
+}
+
+
+
+
+                    /* HEBERGEMENT MARSEILLE !!!!!*/
+
+.hebergement
+{
+    width: 200px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 4px;
+    box-shadow: 8px 3px 11px grey;
+}
+
+.hebergement img
+{
+    max-width: 100%;
+    border-radius: 30px 30px 0px 0px;
+   
+}
+
+.hebergement h3
+{
+    padding: 2px 7px;
+}
+
+.hebergement p
+{
+    padding: 2px 7px;
+}
+
+                        /* POPULAIRES !!!*/
+
+.populaires
+{
+    width: 200px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 4px;
+    box-shadow: 8px 3px 11px grey;
+}
+
+.populaires img
+{
+    max-width: 100%;
+    border-radius: 30px 30px 0px 0px;
+   
+}
+
+.populaires h3
+{
+    padding: 2px 7px;
+}
+
+.populaires p
+{
+    padding: 2px 7px;
+}
+
+                    /* ACTIVITES A MARSEILLE!!!!*/
+
+.activités
+{
+    width: 200px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 8px 3px 11px grey;
+}
+
+.activités img
+{
+    max-width: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.activités h3
+{
+    padding: 2px 7px;
+}
+
+                        /* ETOILES !!!!*/
+
+.fas
+{
+    color: #0065FC;
+}
+
+.grey
+{
+    color: #F2F2F2
+}
+
+
+                        /* FOOTER !!!!!*/
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+footer ul 
+{
+    list-style-type: none;
+}
+
+footer li
+{
+    margin: 10px;
+}
+
+footer a 
+{
+    font-size: 15px;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
