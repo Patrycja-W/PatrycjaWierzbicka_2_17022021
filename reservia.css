@@ -7,181 +7,269 @@
 body
 {
     font-family: 'PoliceRaleway';
-    font-size: 14px;
+    font-size: 15px;
 }
+ header , main
+ {
+    padding-left: 300px;
+    padding-right: 300px;
+ }
 
 
-head , header , main 
-{
-    padding-left: 40px;
-    padding-right: 40px;
-}
 
 
 
                     /* HEBERGEMENT ACTIVITES SINSCRIRE !!!!!*/
 
-nav
+.header
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  
+    margin-bottom: 20px;
 }
 
-nav ul
+.navigation ul
 {
     list-style-type: none;
     display: flex;
-
+    text-decoration: none;   
 }
 
-nav li
-{
-    margin-right: 35px;
-}
-
-nav a
+.navigation a
 {
     font-size: 15px;
     color: black;
     padding-bottom: 3px;
     text-decoration: none;
+    margin-right: 35px;
+    font-size: 15px;
+}
+.phrase1
+{
+    font-size: 16px;
+}
+.phrase2
+{
+    margin-bottom: 20px;
 }
 
-.phrasedébut
+                    /* BARRE DE RECHERCHE */
+
+.search 
 {
-    padding: 20px 0
+  width: 50%;
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
 }
+
+.searchTerm 
+{
+  border: 1px solid #F2F2F2;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchButton 
+{
+  height: 32px;
+  border: 1px solid #0065FC;
+  background:  #0065FC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  font-size: 13px;
+}
+.wrap
+{
+    display: flex;
+    flex-direction: row;
+}
+ .maps 
+ {
+    border: 1px #F2F2F2 solid;
+    height: 30px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 8px 0 0 8px;
+ }
+
+
                         /* FILTRES!!!!!!!*/ 
 
-main ul
+.filtres ul
 {
     list-style-type: none;
     display: flex;
     font-weight: bold;
     justify-content: flex-start;
-   padding: 0;
+    padding: 0;
 
 }
 
-main li
+.filtres li
 {
     margin-right: 15px;
-    border: 1px grey solid;
+    border: 2px #F2F2F2 solid;
     border-radius: 30px 30px;
-    padding: 7px 10px;
-    
+    padding: 6px 10px;
 }
 
 .fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog
 {
     background-color: #DEEBFF;
-    border-radius: 60px;
-
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
 }
 
-
-
+.premier
+{
+    border: none
+}
 
                     /* HEBERGEMENT MARSEILLE !!!!!*/
 
-.hebergement
+.container-hebergement-populaires
 {
-    background-color: white;
-    width: 200px;
-    border-radius: 30px;
-    overflow: hidden;
-    padding: 4px;
-    box-shadow: 8px 3px 11px grey;
-}
-
-.hebergement img
-{
-    max-width: 100%;
-    border-radius: 30px 30px 0px 0px;
-   
-}
-
-.hebergement h3
-{
-    padding: 2px 7px;
-}
-
-.hebergement p
-{
-    padding: 2px 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .container-hebergement
 {
     display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    background-color: #F2F2F2;
+    border-radius: 5%;
+    width: 63%;
+    height: 550px;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+.hebergement
+{
+    background-color: white;
+    width: 210px;
+    height: 170px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 4px;
+    box-shadow: 1px 1px 10px grey;
+    margin-bottom: 30px;
+}
+
+.hebergement img
+{
+    width: 100%;
+    height: 55%;
+    border-radius: 30px 30px 0px 0px;   
+}
+.titre 
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px
+}
+.hotels
+{
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #F2F2F2;
-    width: 50%;
-    padding: 20px;
-    margin: 40px;
-    border-radius: 5%
+    margin: 0;
+    
 }
+ .afficher-plus
+ {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+ }
+
 
                         /* POPULAIRES !!!*/
 
 .populaires
 {
     background-color: white;
-    width: 200px;
+    width: 300px;
+    height: 120px;
     border-radius: 30px;
     overflow: hidden;
     padding: 4px;
-    box-shadow: 8px 3px 11px grey;
+    box-shadow: 1px 1px 10px grey;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
 .populaires img
 {
-    max-width: 100%;
-    border-radius: 30px 30px 0px 0px;
+    width: 115px;
+    height: 150px;
+    border-radius: 26px 0px 0px 26px;
    
-}
-
-.populaires h3
-{
-    padding: 2px 7px;
-}
-
-.populaires p
-{
-    padding: 2px 7px;
 }
 
 .container-populaires
 {
+    background-color: #F2F2F2;
+    width: 29%;
+    height: 550px;
+    padding: 20px;
+    margin-top:  20px;
+    border-radius: 5%;
+
+   
+}
+
+.hotelspopulaires
+{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #F2F2F2;
-    width: 20%;
-    padding: 20px;
-    margin: 40px;
-    border-radius: 2%;
+    align-items: center;
+
 }
+.titrelespluspopulaires 
+{
+   font-size: 20px;
+   font-weight: bold;
+   margin: 25px;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+
 
                     /* ACTIVITES A MARSEILLE!!!!*/
 
 .activités
 {
     background-color: white;
-    width: 200px;
+    width: 290px;
+    height: 500px;
     border-radius: 30px;
     overflow: hidden;
-    box-shadow: 8px 3px 11px grey;
+    box-shadow: 5px 5px 5px #F2F2F2;
 }
 
 .activités img
 {
-    max-width: 100%;
+    width: 100%;
+    height:86%;
     border-radius: 30px 30px 0px 0px;
 }
 
@@ -193,15 +281,42 @@ main li
 .container-activites
 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
-    border: 1px blue solid;
-    width: 80%;
-    padding: 20px;
-    margin: 40px;
+    width: 100%;
+    margin-bottom: 50px
 }
-                        /* ETOILES !!!!*/
+
+.toutesactivités
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activités2
+{
+    background-color: white;
+    width: 290px;
+    height: 230px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px #F2F2F2;
+}
+
+.activités2 img
+{
+    width: 100%;
+    height: 70%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.deux-ensemble
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}                        /* ETOILES !!!!*/
 
 .fas
 {
@@ -221,6 +336,7 @@ footer
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+   
 }
 
 footer ul 
@@ -248,8 +364,41 @@ footer a
     flex-wrap: wrap;
     background-color: #F2F2F2;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: space-around;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
+/* Modifs dans le texte sur Hebergements */ 
+
+.hebergement p , h3
+{
+    margin-left: 5%;
+
+}
+
+.hebergement p
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.hebergement h3
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+.ecritures
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ecritures h3,p
+{
+    margin: 1%;
+}
