@@ -1,7 +1,12 @@
 @font-face
 {
     font-family: 'PoliceRaleway';
-    src:url('Police/Raleway-Light.ttf');
+    src:url('Police/Raleway-Regular.ttf');
+}
+@font-face
+{
+    font-family: 'PoliceRalewayBold';
+    src:url('Police/Raleway-Bold.ttf')
 }
 
 body
@@ -17,8 +22,6 @@ body
 
 
 
-
-
                     /* HEBERGEMENT ACTIVITES SINSCRIRE !!!!!*/
 
 .header
@@ -27,32 +30,52 @@ body
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .navigation ul
 {
     list-style-type: none;
     display: flex;
-    text-decoration: none;   
+    text-decoration: none;  
 }
 
 .navigation a
 {
-    font-size: 15px;
+    font-size: 17px;
     color: black;
     padding-bottom: 3px;
     text-decoration: none;
     margin-right: 35px;
-    font-size: 15px;
+}
+.heb a:hover
+{
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+
+}
+
+.act a:hover
+{
+    color: #0065FC;
+    border-top: 2px #0065FC solid
+}
+
+.sinscrire a
+{
+    color:#0065FC;
+    font-family: 'PoliceRalewayBold';
 }
 .phrase1
 {
-    font-size: 16px;
+    font-family: 'PoliceRalewayBold';
+    font-size: 20px;
 }
 .phrase2
 {
     margin-bottom: 20px;
 }
+
 
                     /* BARRE DE RECHERCHE */
 
@@ -88,8 +111,10 @@ body
 .wrap
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
 }
+
+
  .maps 
  {
     border: 1px #F2F2F2 solid;
@@ -102,38 +127,75 @@ body
     border-radius: 8px 0 0 8px;
  }
 
+ 
+
 
                         /* FILTRES!!!!!!!*/ 
 
-.filtres ul
+.filtres 
+{
+    display: flex;
+    align-items: center;
+    font-family: 'PoliceRalewayBold';
+
+   
+}
+.filtre {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    border: #F2F2F2 2px solid;
+    border-radius: 25px;
+    width: auto;
+    padding: 0px 10px 0 0;
+
+      }
+
+.filtre:hover
+{
+    background-color: #F2F2F2;
+}
+
+.icon
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #DEEBFF 2px solid;
+}
+
+.filtre a
 {
     list-style-type: none;
-    display: flex;
-    font-weight: bold;
-    justify-content: flex-start;
-    padding: 0;
-
+    text-decoration: none;  
+    color: black;
 }
 
-.filtres li
+
+
+                          /* barre i !!!*/
+
+.info
 {
-    margin-right: 15px;
     border: 2px #F2F2F2 solid;
-    border-radius: 30px 30px;
-    padding: 6px 10px;
+    height: 30px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
 }
 
-.fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog
+.info-icone
 {
-    background-color: #DEEBFF;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%; 
-}
-
-.premier
-{
-    border: none
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
                     /* HEBERGEMENT MARSEILLE !!!!!*/
@@ -166,8 +228,12 @@ body
     border-radius: 30px;
     overflow: hidden;
     padding: 4px;
-    box-shadow: 1px 1px 10px grey;
+
     margin-bottom: 30px;
+}
+.hebergement:hover
+{
+    box-shadow: 0 3px 10px 1px #7e7e7e;
 }
 
 .hebergement img
@@ -179,8 +245,9 @@ body
 .titre 
 {
     font-size: 20px;
-    font-weight: bold;
-    margin: 25px
+    font-family: 'PoliceRalewayBold';
+    margin: 25px;
+
 }
 .hotels
 {
@@ -197,7 +264,37 @@ body
     font-weight: bold;
     margin: 20px;
  }
-
+ .hebergement p , h3
+ {
+     margin-left: 5%;
+ 
+ }
+ 
+ .hebergement p
+ {
+     margin-top: 2%;
+     margin-bottom: 2%;
+ }
+ 
+ .hebergement h3
+ {
+     margin-top: 2%;
+     margin-bottom: 2%;
+ }
+ 
+ 
+ 
+ .ecritures
+ {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+ }
+ 
+ .ecritures h3,p
+ {
+     margin: 1%;
+ }
 
                         /* POPULAIRES !!!*/
 
@@ -209,10 +306,14 @@ body
     border-radius: 30px;
     overflow: hidden;
     padding: 4px;
-    box-shadow: 1px 1px 10px grey;
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
+}
+
+.populaires:hover
+{
+    box-shadow: 0 3px 10px 1px #7e7e7e;
 }
 
 .populaires img
@@ -245,7 +346,7 @@ body
 .titrelespluspopulaires 
 {
    font-size: 20px;
-   font-weight: bold;
+   font-family: 'PoliceRalewayBold';
    margin: 25px;
    display: flex;
    justify-content: space-between;
@@ -263,7 +364,11 @@ body
     height: 500px;
     border-radius: 30px;
     overflow: hidden;
-    box-shadow: 5px 5px 5px #F2F2F2;
+}
+
+.activités:hover
+{
+    box-shadow: 0 3px 10px 1px #7e7e7e;
 }
 
 .activités img
@@ -301,7 +406,11 @@ body
     height: 230px;
     border-radius: 30px;
     overflow: hidden;
-    box-shadow: 5px 5px 5px #F2F2F2;
+}
+
+.activités2:hover
+{
+    box-shadow: 0 3px 10px 1px #7e7e7e;
 }
 
 .activités2 img
@@ -316,17 +425,7 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}                        /* ETOILES !!!!*/
-
-.fas
-{
-    color: #0065FC;
-}
-
-.grey
-{
-    color: #F2F2F2
-}
+}                 
 
 
                         /* FOOTER !!!!!*/
@@ -369,36 +468,24 @@ footer a
     padding-bottom: 15px;
 }
 
-/* Modifs dans le texte sur Hebergements */ 
+               /* couleurs icones */
 
-.hebergement p , h3
+
+.fas
 {
-    margin-left: 5%;
-
+    color: #0065FC;
 }
 
-.hebergement p
+.grey
 {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    color: #F2F2F2
 }
 
-.hebergement h3
+.icone-maps
+ {
+    color: black;
+ }
+.icone-populaires
 {
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-
-
-.ecritures
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.ecritures h3,p
-{
-    margin: 1%;
+    color:black
 }

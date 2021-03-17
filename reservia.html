@@ -13,9 +13,9 @@
             <div class="header">
                 <div><img src="Reservia.svg" alt="Logo reservia"/></div>
                 <div class="navigation"><ul>
-                <li><a href="#lienhebergement">Hebergement</a></li>
-                <li><a href="#lienactivités">Activités</a></li>
-                <li><a href="#">S'inscrire</a></li>
+                <li class="heb"><a href="#lienhebergement">Hébergements</a></li>
+                <li class="act"><a href="#lienactivités">Activités</a></li>
+                <li class="sinscrire"><a href="#">S'inscrire</a></li>
                 </ul></div>
             </div>
         
@@ -27,7 +27,7 @@
 
             
             <div class="wrap">
-                <div class="maps"> <i class="fas fa-map-marker-alt"></i></div>
+                <div class="maps"> <i class="fas fa-map-marker-alt icone-maps"></i></div>
                 <div class="search">
                     <input type="text" class="searchTerm" placeholder="Marseille, France">
                     <button type="sumbit" class="searchButton">
@@ -39,16 +39,31 @@
 
 
             <div class="filtres">
-                    <ul>
-                    <li>Filtres</li>
-                    <li><i class="fas fa-money-bill-wave"></i> Economique</li>
-                    <li><i class="fas fa-child"></i> Familial</li>
-                    <li><i class="fas fa-heart"></i> Romantique</li>
-                    <li><i class="fas fa-dog"></i> Animaux autorisés</li>
-                    </ul>
+                <div class="filtre-texte"> 
+                    <span>Filtres</span>
+                </div>
+                <div class="filtre"> 
+                    <div class="icon"><i class="fas fa-money-bill-wave"></i></div>
+                    <div class="text"> <a href="#">Economique</a></div>
+                </div>
+                <div class="filtre"> 
+                    <div class="icon"><i class="fas fa-child"></i></div>
+                    <div class="text"> <a href="#">Familial</a></div>
+                </div>
+                <div class="filtre"> 
+                    <div class="icon"><i class="fas fa-heart"></i></div>
+                    <div class="text"> <a href="#">Romantique</a></div>
+                </div>
+                <div class="filtre"> 
+                    <div class="icon"><i class="fas fa-dog"></i></div>
+                    <div class="text"><a href="#"> Animaux autorisés</a></div>
+                </div>
             </div>
 
-                <div class="logements"><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</div>
+                <div class="info-icone">
+                    <i class="fas fa-info info"></i>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
         
         </header>
 
@@ -60,7 +75,7 @@
                     <div class="titre" id="lienhebergement">Hébergements à Marseille</div> 
             
                     <div class="hotels">
-                        <div class="hebergement">
+                        <div class="hebergement"> 
                 <img src="imageshébergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo"/>
                 <h3>Auberge la Cannebière</h3>
                 <p>Nuit à partir de <b class="price"> 25€</b></p>
@@ -131,10 +146,10 @@
 <!-- LES PLUS POPULAIRES -->
 
                 <div class="container-populaires"> 
-                    <div class="titrelespluspopulaires"> Les plus populaires <i class="fas fa-chart-line"></i></div>
+                    <div class="titrelespluspopulaires"> Les plus populaires <i class="fas fa-chart-line icone-populaires"></i></div>
 
                     <div class="hotelspopulaires">
-                        <div class="populaires">
+                        <div class="populaires"> 
                             <img src="imagespopulaires/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"alt="photo"/>
                          <div i class="ecritures"><h3>Hôtel le soleil du matin</h3>
                             <p>Nuit à partir de <b class="price"> 128€</b> </p>
@@ -202,7 +217,7 @@
                     <div class="activités">
                     <img src="imagesactivités/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo"/>
                     <h3>Parc national des Calanques</h3>
-                    </div>
+                   </div>
 
     <div class="deux-ensemble"> 
                     <div class="activités2">
