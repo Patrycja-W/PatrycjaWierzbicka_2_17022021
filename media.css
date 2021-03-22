@@ -1,0 +1,270 @@
+
+@media (max-width: 1140px)
+{
+    header, main 
+    {
+        width: 100%;
+    }
+}
+
+
+@media all and (min-width: 600px) and (max-width: 1060px)
+{
+    /* Hebergement*/
+    .container-hebergement-populaires
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-hebergement
+    {
+        width: auto;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .card-hebergement
+    {
+        margin-left: 15px
+    }
+
+    /* Populaires */
+    .container-populaires
+    {
+        width: auto;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .bloc-populaires
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .card-populaires
+    {
+        width: 250px;
+        margin: auto;
+    }
+
+    /* Activites*/
+
+    .bloc-activites
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .double
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .card-activite
+    {
+        margin: 20px;
+        height: 230px;
+        margin-right: 0px;
+    }
+    .card-activite .img-activite
+    {
+        height: 74%;
+    }
+    .card-activite2
+    {
+        margin: 20px;
+    }
+
+    /* Footer*/
+
+    .container-footer
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .container-footer ul 
+    {
+        margin-right: 10px;
+    }
+}
+
+@media all and (max-width: 600px)
+{
+    header 
+    {
+        margin: 15px;
+        margin-bottom: 0;
+        padding: 15px
+    }
+
+    .title1 
+    {
+        font-size: 20px;
+        max-width: 312px;
+        padding-bottom: inherit;
+    }
+    .search-mini
+    {
+        display: flex;
+        height: 42px;
+        border: 1px solid #0065FC;
+        background:  #0065FC;
+        text-align: center;
+        color: #fff;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 15px;
+        align-items: center;
+    }
+    .searchButton
+    {
+        display: none;
+    }
+
+    .searchTerm 
+    {
+        height: 30px;
+        width: auto;
+
+    }
+    .maps 
+    {
+        height: 40px;
+        width: 45px;
+
+    }
+
+
+   .info-icone
+   {
+       max-width: 320px;
+       font-size: 14px;
+   }
+
+    /*filtres*/
+    .filtres
+    {
+        display: inline-block;
+    }
+    .filtre-romantique
+    {
+        width: 147px;
+        margin-top: 0;
+
+    }
+    .filtre-animaux
+    {
+        width: 192px;
+    }
+
+
+    /* Hebergement */
+ 
+    .container-hebergement-populaires
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .container-hebergement
+    {
+        background-color: white;
+        flex-flow: column;
+        width: -webkit-fill-available;
+        padding: 10px;
+    }
+     
+    .card-hebergement
+    {
+        width: 400px;
+        height: 175px;
+        margin-bottom: 15px;
+        box-shadow: 0 3px 10px -3px #7e7e7e
+    }
+
+    .titre-hebergement
+    {
+        margin-left: 0;
+        ;
+    }
+
+    .afficher-plus
+    {
+        margin-left: 0;
+    }
+
+    .card-hebergement h3
+    {
+        padding-top: 0;
+    }
+
+
+    /* Populaires */
+
+    .container-populaires
+    {
+        display: flex;
+        flex-flow: column;
+        inline-size: fit-content;
+        width: -webkit-fill-available;
+        padding: 10px;
+        margin-top: 0;
+        border-radius: 0;
+    }
+    .card-populaires
+    {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    /* Activites */
+
+    .container-activites
+    {
+
+        padding: 10px;
+    }
+    .bloc-activites
+    {
+        flex-direction: column;
+        
+    }
+
+    .card-activite
+    {
+        width: 340px;
+        height: 200px;
+        margin-bottom: 25px;
+
+    }
+
+    .card-activite2
+    {
+        width: 340px;
+        height: 200px;
+        margin-bottom: 25px;
+    }
+
+    
+
+    .card-activite .img-activite
+    {
+        width: 100%;
+        height: 74%;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    /* Footer */
+    .container-footer
+    {
+        flex-direction: column;
+    }
+
+    footer ul 
+    {
+        margin-right: 80px;
+    }
+
+    
+} 
