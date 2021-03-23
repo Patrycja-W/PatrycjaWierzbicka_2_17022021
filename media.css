@@ -93,10 +93,34 @@
 {
     header 
     {
-        margin: 15px;
-        margin-bottom: 0;
-        padding: 15px
+        padding: 15px;
+        width: revert;
     }
+    
+    .navigation
+    {
+        margin-top: 0;
+    }
+    .nav-sinscrire
+    {
+        position: absolute;
+        top: 38px;
+        right: 0px;
+    }
+
+    .nav-hebergement
+    {
+      
+        border-bottom: #d8d8d8 3px solid;
+        padding: 15px 0 8px 0;
+    }
+
+    .nav-activites
+    {
+        border-bottom: #d8d8d8 3px solid;
+        padding: 15px 0 8px 0;
+    }
+
 
     .title1 
     {
@@ -223,6 +247,7 @@
     {
 
         padding: 10px;
+        width: -webkit-fill-available;
     }
     .bloc-activites
     {
@@ -253,6 +278,11 @@
         height: 74%;
         background-position: center center;
         background-size: cover;
+    }
+
+    .titre-activites
+    {
+        margin-top: 10px;
     }
 
     /* Footer */

@@ -164,7 +164,7 @@ header , main
     color: black; 
 }
 
-.filtre:hover
+.filtre-economique:hover , .filtre-familial:hover , .filtre-romantique:hover , .filtre-animaux:hover
 {
     background-color: #F2F2F2;
 }
@@ -367,6 +367,7 @@ header , main
     justify-content: space-evenly;
     padding-left: 15px;
     padding-right: 15px;
+    width: 125px;
 }
 
 .bloc-populaires 
