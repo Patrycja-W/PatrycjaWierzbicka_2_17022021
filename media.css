@@ -44,7 +44,7 @@
     .card-populaires
     {
         width: 250px;
-        margin: auto;
+        margin: 5px
     }
 
     /* Activites*/
@@ -122,7 +122,8 @@
         padding: 0;
         width: revert;
     }
-    
+
+    /* NAVIGATION */
     .nav 
     {
         width: 100%;
@@ -133,12 +134,11 @@
     .nav ul 
     {
         display: flex;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
     }
     .navigation
     {
@@ -173,27 +173,28 @@
     }
 
     .nav-hebergement a:hover
-{
-    border-top: none;
+    {
+        border-top: none;
 
-}
+    }
 
-.nav-activites a:hover
-{
-    border-top: none;
-   
-}
+    .nav-activites a:hover
+    {
+        border-top: none;
+    
+    }
 
-.nav-hebergement:hover
-{
-    border-bottom: #0065FC 3px solid;
-}
+    .nav-hebergement:hover
+    {
+        border-bottom: #0065FC 3px solid;
+    }
 
-.nav-activites:hover
-{
-    border-bottom: #0065FC 3px solid;
-}
+    .nav-activites:hover
+    {
+        border-bottom: #0065FC 3px solid;
+    }
 
+    /* TITLES */
     .title1 
     {
         font-size: 20px;
@@ -207,6 +208,7 @@
         padding-top: 10px;
     }
     
+    /* SEARCH BAR */
     .wrap 
     {
         padding-left: 20px;
@@ -245,13 +247,6 @@
     }
 
 
-   .info-icone
-   {
-       max-width: 320px;
-       font-size: 14px;
-       padding-left: 20px;
-   }
-
     /*filtres*/
     .filtres
     {
@@ -270,6 +265,13 @@
     }
 
 
+    .info-icone
+    {
+        max-width: 320px;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    
     /* Hebergement */
  
     .container-hebergement-populaires
