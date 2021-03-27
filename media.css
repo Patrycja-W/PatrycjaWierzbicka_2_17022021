@@ -117,11 +117,7 @@
     {
         margin: 0;
     }
-    header 
-    {
-        padding: 0;
-        width: revert;
-    }
+   
 
     /* NAVIGATION */
     .nav 
@@ -241,7 +237,7 @@
     }
     .maps 
     {
-        height: 40px;
+        height: 42px;
         width: 45px;
 
     }
@@ -320,10 +316,8 @@
     {
         display: flex;
         flex-flow: column;
-        inline-size: fit-content;
         width: 100%;
         padding: 0;
-        margin-top: 0;
         border-radius: 0;
     }
     .card-populaires

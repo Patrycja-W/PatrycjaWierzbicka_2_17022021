@@ -75,11 +75,13 @@ header , main
     font-family: 'PoliceRalewayBold';
     font-size: 20px;
     padding-bottom: 5px;
+    margin-bottom: 0;
 }
 
 .title2
 {
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 
@@ -133,8 +135,7 @@ header , main
 
 .maps 
 {
-    border: 1px #F2F2F2 solid;
-    height: 30px;
+    height: 32px;
     width: 35px;
     display: flex;
     justify-content: center;
@@ -186,7 +187,7 @@ header , main
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #DEEBFF 2px solid;
+
 }
 
 .texte
@@ -255,15 +256,11 @@ header , main
     text-decoration: none; 
     color: black; 
     font-size: 13px;
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .card-hebergement:hover
 {
-    -webkit-transform: scale(1.3);
 	transform: scale(1.3);
 }
 
@@ -336,15 +333,11 @@ header , main
     text-decoration: none; 
     color: black; 
     font-size: 13px;
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
 .card-populaires:hover
 {
-    -webkit-transform: scale(1.3);
 	transform: scale(1.3);
 }
 
