@@ -48,6 +48,12 @@
     }
 
     /* Activites*/
+    .titre-activites
+    {
+    
+    margin-left: 50px;
+    }
+
 
     .bloc-activites
     {
@@ -90,7 +96,7 @@
         margin: 20px;
         height: 230px;
     }
-
+    
     /* Footer*/
 
     .container-footer
